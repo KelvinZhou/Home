@@ -29,10 +29,10 @@ function draw() {
     fill(0);
     let y1 = data.getNum(i,1);
     let x = data.getNum(i,0);
-    rectMode(RADIUS);
-    rect(plotX1+600*x-15, height/2-150*y1/2, 12, 150*y1/2);
+    rectMode(CENTER);
+    rect(plotX1+600*x-15, height/2-150*y1, 24, 150*y1);
     fill(100);
     let y2 = data.getNum(i,2);
-    rect(plotX1+600*x-15, height/2+150*y2/2, 12, 150*y2/2);
+    rect(plotX1+600*x-15, height/2+150*y2, 24, 150*y2);
   }
 }
