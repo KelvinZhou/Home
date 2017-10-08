@@ -31,7 +31,7 @@ function draw() {
     let x = data.getNum(i,0);
     rectMode(RADIUS);
     rect(plotX1+30*x, height/2-150*y1/2, 12, 150*y1/2);
-    fill(#5679C1);
+    fill(20,20,200);
     let y2 = data.getNum(i,2);
     rect(plotX1+30*x, height/2+150*y2/2, 12, 150*y2/2);
   }
