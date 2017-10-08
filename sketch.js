@@ -2,7 +2,7 @@ let data;
 let plotX1, plotX2, plotY1, plotY2;
 
 function preload(){
-  data = loadTable("data/AM_ENPs.csv", "csv", "header");
+  data = loadTable("data/file.csv", "csv", "header");
 }
 
 function setup() {
