@@ -1,0 +1,175 @@
+html, body { height: 100%; }
+
+body {
+	padding:0;
+	text-align: left;	
+	
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #030303;
+	
+	font-family: 'Helvetica', Verdana, Arial, Sans-Serif;
+	font-size: 8pt;
+	color:#cccccc;
+}
+	
+table {
+	border-style:none;	
+ 	
+ 	margin:0px 0px 0px 0px;
+ 	padding:0px 0px 0px 0px;
+ 	}
+ 	
+tr {vertical-align:top;}
+
+td {
+	vertical-align:top;
+	text-align:left;
+	}
+
+a {
+	color:#CD2990;
+	text-decoration:none;
+	}
+a:hover {
+	color:#CD2990;
+	text-decoration:underline;
+	}
+
+a img {
+	border-style:none;	
+}
+
+
+canvas:focus { outline: none; }
+
+
+/* header */
+	
+.header {
+	/* font-family: 'Georgia', Times, Serif;	*/
+	font-size: 10pt;
+	color: #CD2990;
+	padding-bottom:20px;
+}
+.header a {
+	color:#CD2990;
+	text-decoration:none;
+	}
+.header a:hover {
+	color:#CD2990;
+	text-decoration:underline;
+	}
+
+
+/* title */
+
+.title {
+	font-family: 'Georgia', Times, Serif;
+	font-size: 26pt;
+	color: #ffffff;
+}
+
+.title2 {
+	font-family: 'Georgia', Times, Serif;
+	font-size: 18pt;
+	color: #ffffff;
+}
+
+.subtitle {
+	font-size: 8pt;
+	color: #cccccc;
+ 	padding:0px;
+ 	padding-top:5px;
+}
+
+
+
+/* page table */
+
+.main {
+ 	padding:0px;
+ 	padding-left:20px;
+}
+
+
+/* work cell */
+
+.work {
+	font-size: 10pt;
+ 	padding:40px;
+ 	padding-bottom:10px;
+}
+
+
+.list {
+	font-size: 12pt;
+ 	padding:0px;
+ 	padding-top:5px;
+ 	padding-bottom:4px;
+}
+
+
+.listsm {
+	font-size: 9pt;
+ 	padding:0px;
+ 	padding-top:2px;
+ 	padding-bottom:3px;
+}
+
+.archive {
+	font-size: 8pt;
+ 	padding:40px;
+ 	padding-top:5px;
+ 	padding-bottom:5px;
+}
+
+
+/* prev/next cells */
+
+.prev {
+	text-align: left;	
+}
+.next {
+	text-align: right;	
+}
+
+/* comments cell */
+
+.comments {
+ 	padding:20px;
+ 	padding-top: 0px;
+ 	padding-bottom:0px;
+}
+
+.commentCell {
+	background-color: #2d2020;
+	color: #cccccc;
+}
+
+
+/* side cell */
+
+.side {
+	/* font-family: 'Georgia', Times, Serif;	
+	font-size: 8pt;*/
+	padding-bottom:20px;
+	padding-left:20px;
+}
+.side a {
+	color:##CD2990;
+	text-decoration:none;
+	}
+.side a:hover {
+	color:#CD2990;
+	text-decoration:underline;
+	}
+
+
+/* footer */
+
+.footer {
+	text-align: center;	
+}
