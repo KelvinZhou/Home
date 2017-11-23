@@ -1,1 +1,1 @@
-# https://kelvinzhou.github.io/Home/
+# https://kelvinzhou.github.io/home/
