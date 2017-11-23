@@ -69,7 +69,7 @@ canvas:focus { outline: none; }
 /* title */
 
 .title {
-  font-family: 'Georgia', Times, Serif;
+  font-family: 'Noto Serif', Times, Serif;
   font-size: 26pt;
   color: #ffffff;
 }
