@@ -1,0 +1,97 @@
+/* adapted from:http://zenbullets.com/abandonedart.org/
+*/
+html, body { height: 100%; }
+
+body {
+  padding:0;
+  text-align: left; 
+  
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-color: #030303;
+  
+  font-family: 'Helvetica', Verdana, Arial, Sans-Serif;
+  font-size: 8pt;
+  color:#cccccc;
+}
+  
+table {
+  border-style:none;  
+  
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  }
+  
+tr {vertical-align:top;}
+
+td {
+  vertical-align:top;
+  text-align:left;
+  }
+
+a {
+  color:#CD2990;
+  text-decoration:none;
+  }
+a:hover {
+  color:#CD2990;
+  text-decoration:underline;
+  }
+
+a img {
+  border-style:none;  
+}
+
+
+canvas:focus { outline: none; }
+
+
+/* header */
+  
+.header {
+  /* font-family: 'Georgia', Times, Serif;  */
+  font-size: 10pt;
+  color: #CD2990;
+  padding-bottom:20px;
+}
+.header a {
+  color:#CD2990;
+  text-decoration:none;
+  }
+.header a:hover {
+  color:#CD2990;
+  text-decoration:underline;
+  }
+
+
+/* title */
+
+.title {
+  font-family: 'Georgia', Times, Serif;
+  font-size: 26pt;
+  color: #ffffff;
+}
+
+.title2 {
+  font-family: 'Georgia', Times, Serif;
+  font-size: 18pt;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 8pt;
+  color: #CD2990;
+  padding:0px;
+  padding-top:5px;
+}
+
+
+
+/* page table */
+
+.main {
+  padding:0px;
+  padding-left:20px;
+}
